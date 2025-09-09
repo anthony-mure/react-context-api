@@ -26,7 +26,7 @@ const Navbar = () => {
               onClick={() => setBudgetMode(prev => !prev)}
             >
               Modalità Budget :
-             {budgetMode ? "Disattiva" : "Attiva "}
+             {budgetMode ? "Attiva" : "Disattiva"}
             </button>
           </div>
         </div>
