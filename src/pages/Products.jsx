@@ -12,8 +12,7 @@ const Products = () => {
   const [products, setProducts] = useState([]);
   const { budgetMode } = useBudget();
 
-
-
+  
    useEffect(() => {
     axios.get("https://fakestoreapi.com/products")
       .then(res => setProducts(res.data))
