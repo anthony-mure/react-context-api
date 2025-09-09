@@ -1,0 +1,9 @@
+nav a.active{
+  background-color: aqua;
+}
+
+.card img{
+  width: 50%;
+  padding: 20px;
+
+}
