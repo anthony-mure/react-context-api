@@ -6,6 +6,8 @@ const BudgetProvider = ({children}) =>{
 
   const[ budgetMode, setBudgetMode ] = useState(false);
   
+
+  
   const value ={
     budgetMode,
     setBudgetMode
@@ -19,3 +21,11 @@ const BudgetProvider = ({children}) =>{
 
 };
 
+const useBudget = () => {
+
+  const context = useContext(BudgetContext)
+
+   return context;
+};
+
+export { BudgetProvider, useBudget };
